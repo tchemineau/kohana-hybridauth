@@ -3,5 +3,5 @@
 /**
  * Include Hybrid Auth classes
  */
-require_once(dirname(__FILE__).'/vendor/hybridauth/Hybrid/Auth.php');
+require_once(dirname(__FILE__).'/vendor/hybridauth/hybridauth/Hybrid/Auth.php');
 
