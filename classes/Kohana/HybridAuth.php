@@ -20,7 +20,7 @@ class Kohana_HybridAuth
 	{
 		if (is_null($config))
 		{
-			$config = Kohana::$config->load('hybridauth');
+			$config = Kohana::$config->load('hybridauth')->as_array();
 		}
 		return new Hybrid_Auth($config);
 	}
